@@ -1,0 +1,42 @@
+.reveal section img.no-style {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.arrow {
+  position: relative;
+  top: -100px;
+  width: 100px;
+  height: 100px;
+}
+
+pre code {
+  background: none !important;
+}
+
+.reveal pre {
+  background: #242424;
+}
+
+pre.shared {
+  font-size: 0.35em;
+}
+
+img.shared {
+  max-height: 70%;
+}
+
+div.footer {
+  z-index: 500;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 150px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.footer > :last-child {
+  float: right;
+}
